@@ -1,0 +1,12 @@
+{
+    "name": "devdojo/calculater",
+    "description": "this demo package will do some calculations",
+    "authors": [
+        {
+            "name": "cheran",
+            "email": "cheran15061992@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
