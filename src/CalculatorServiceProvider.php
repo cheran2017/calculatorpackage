@@ -17,7 +17,7 @@ class CalculatorServiceProvider extends ServiceProvider
         include __DIR__.'/routes.php';
 
         $this->publishes([
-            __DIR__.'/views/add.blade.php' => config_path('add.blade.php')
+            __DIR__.'/views' => base_path('resources/views/calculator'),
         ], 'config');
 
     }
